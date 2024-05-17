@@ -54,6 +54,10 @@ h1 {
     color: aliceblue;
     background-color: blue;
 }
+#btnLogin > a{
+
+    color: aliceblue;
+}
 
 @media screen and (max-width: 600px) {
     #login {
@@ -67,4 +71,42 @@ h1 {
         margin-left: auto;
         text-align: center;
     }
+}
+
+
+/*
+Style da tela de login acima 
+
+
+
+*/
+
+
+
+
+
+
+
+
+#ProcureCursos {
+    margin-top: 50px;
+    color: rgb(17, 17, 109);
+}
+
+
+#inputCursos > input{
+    size: 40px;
+    text-align: left;
+    border-radius: 30px;
+    padding-left: 70px;
+    padding-right: 70px;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#inputCursos{
+    size: 40px;
+    text-align: center;
+    border-radius: 30px;
 }
