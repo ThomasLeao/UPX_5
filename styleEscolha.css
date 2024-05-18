@@ -1,0 +1,49 @@
+#login {
+    background-color: #D7E0FF;
+    margin: 50px auto;
+    padding: 2vw; /* Aumenta o padding */
+    border: 2px solid black;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.324);
+    border-radius: 18px;
+    max-width: 800px;
+    box-sizing: border-box;
+}
+
+
+.opcoesLogin {
+    display: flex;
+    justify-content: center;
+    gap: 4em;
+    margin-bottom: 8em;
+}
+.opcaoLogin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background: linear-gradient(#F6F8FF, #ECF1FF); /* Adiciona o background linear */
+}
+
+.imgOpcaoLogin {
+    display: block;
+    position: absolute;
+}
+
+.textOpcaoLogin {
+    font-size: 20px;
+    font-weight: 700;
+    color: #1C0057;
+    text-shadow:
+    2px 2px 0px white,
+    -2px 2px 0px white,
+    2px -2px 0px white,
+    -2px -2px 0px white,
+    2px 0px 0px white,
+    0px 2px 0px white,
+    -2px 0px 0px white,
+    0px -2px 0px white;
+}
+
