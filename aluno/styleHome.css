@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #EEEEEE;
+    overflow-x: hidden;
+    transition: width 0.5s;
+}
+
+.perfil_sidebar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 4em 0 8em 0;
+}
+
+.perfil_sidebar P {
+    font-size: 18px;
+    font-weight: 500;
+    color: #031229;
+}
+
+
+.links_sidebar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1.5em;
+}
+
+.links_sidebar a {
+    display: block;
+    width: 100%;
+    padding-left: 5em;
+    text-decoration: none;
+    font-size: 20px;
+    color: #5338B2;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.links_sidebar a:hover {
+    color: #1e0079;
+}
+
+#paginaAtual {
+    color: #21007D;
+    font-weight: 600;
+}
+
+.sidebar:hover {
+    width: 300px;
+}
+
+
+
+@media screen and (max-height: 450px) {
+    .sidebar {padding-top: 15px;}
+    .sidebar a {font-size: 18px;}
+}
+/* FIM DO SIDEBAR */
+
+.content {
+    margin-left: 300px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo {
+    font-size: 48px;
+    font-weight: 500;
+    color: #1C0057;
+    text-shadow: 1px 1px 10px #03122968;
+}
