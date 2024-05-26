@@ -85,3 +85,42 @@ body {
     color: #1C0057;
     text-shadow: 1px 1px 10px #03122968;
 }
+
+
+.pesquisar {
+    text-align: center;
+}
+
+#Novos {
+    font-size: 30px;
+    margin-top: 90px;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #23006efb;
+}
+
+.pesquisar > input{
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 30px;
+    width: 350px; height: 30px;
+    font-size: larger;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 colunas */
+    grid-gap: 50px; /* Espaço entre os quadrados */
+    margin-top: 50px; /* Espaço acima da grade */
+    margin-left: 350px;
+    margin-right: 50px;
+}
+
+.grid-item {
+    background-color: #f1f1f1;
+    border: 1px solid #1b018b;
+    border-radius: 20px;
+    padding: 100px 50px;
+    text-align: center;
+    font-size: 14px;
+}
